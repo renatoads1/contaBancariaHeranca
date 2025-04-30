@@ -35,6 +35,7 @@ namespace contaBancaria.Entities
         }
         public  virtual void Sacar(double valor)
         {
+            
             if (valor > 0 && valor <= Saldo)
             {
                 Saldo -= (valor - 0.5);

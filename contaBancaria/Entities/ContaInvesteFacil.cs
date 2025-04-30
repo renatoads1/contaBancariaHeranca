@@ -18,6 +18,7 @@ namespace contaBancaria.Entities
 
         public void RenderJuros()
         {
+            //base.Sacar(200);
             if (Saldo > 0)
             {
                 double juros = Saldo * (TaxaJuros / 100);
